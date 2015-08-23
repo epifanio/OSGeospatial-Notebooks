@@ -11,10 +11,10 @@ This Notebook is derived from the original [GDAL-OGR quickstart](../doc/en/quick
 
 * Explore your image data with [```gdalinfo```](#gdalinfo)
 * Format translations, Rescaling, Resizing, Splitting with [```gdal_translate```](#gdal_translate)
-    * [```Format translations```](#Format-translation)
-    * [```Resizing```](#Resizing)
-    * [```Rescaling```](#Rescaling)
-    * [```Splitting```](#Splitting)
+
+    * [```Format translations```](#Format-translation), [```Resizing```](#Resizing), [```Rescaling```](#Rescaling), [```Splitting```](#Splitting)
+
+
 * Reproject  with [```gdalwarp```](#Reprojecting)
 * Raster tileindex with [```gdaltindex```](#gdaltindex)
 * Image Mosaic with ```gdal_warp``` or [```gdal_merge.py```](#Mosaicking)
@@ -554,42 +554,8 @@ Here we reproject to the Ortho projection.
 
     ERROR 1: tolerance condition error
     ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: Reprojection failed, err = -20, further errors will be suppressed on the transform object.
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
-    ERROR 1: tolerance condition error
+    ...
+    ...
     ERROR 1: tolerance condition error
     ERROR 1: tolerance condition error
     ERROR 1: Reprojection failed, err = -20, further errors will be suppressed on the transform object.
