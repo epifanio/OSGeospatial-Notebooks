@@ -15,11 +15,11 @@ On the earth surface the distances between 2 points can't be expressed as a stra
 ###Distance on a sphere
 [source](https://www.math.ksu.edu/~dbski/writings/haversine.pdf)
 
-Given 2 Points $P_1(\theta_1,\phi_1)$ and $P_2(\theta_2,\phi_2)$ on the Earth’s Surface in polar coordinates, which coincide with $P_1(x_1,y_1,z_1)$ and $P_2(x_2,y_2,z_2)$ in cartesian coordinates. The distance $d$ on the surface of a sphere is computed in two stages:
+Given 2 Points $$P_1(\theta_1,\phi_1)$$ and $$P_2(\theta_2,\phi_2)$$ on the Earth’s Surface in polar coordinates, which coincide with $$P_1(x_1,y_1,z_1)$$ and $$P_2(x_2,y_2,z_2)$$ in cartesian coordinates. The distance $$d$$ on the surface of a sphere is computed in two stages:
 * Compute the euclidean distance as a straight line
 * Convert the measurments to spherical coordinates
 
-The conversion from polar coordinates $(\theta, \phi)$ to cartesian $(X,Y,Z)$ is given by the relation:
+The conversion from polar coordinates $$(\theta, \phi)$$ to cartesian $$(X,Y,Z)$$ is given by the relation:
 
 $$
 X = R \cdot \cos(\theta) \cdot \cos(\phi) \\
@@ -60,7 +60,9 @@ $$
 D = R \alpha = R \sin^{-1}{(\frac{d}{2R^2}\cdot \sqrt{4R^2-d^2})}
 $$
 
-<img src="../images/sc1.svg" width="80%">
+
+<img src="sc1.png" width="80%">
+
 <center>Figure 1</center>
 
 ### Distance on curved surface
