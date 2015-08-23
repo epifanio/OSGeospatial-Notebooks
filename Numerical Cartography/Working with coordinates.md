@@ -1,5 +1,5 @@
 
-<h1><center>[Notebooks](../) - [Numerical Cartography](../numerical cartography)</center></h1>
+#/[Notebooks](../)/[Numerical Cartography](../numerical cartography)/</center>
 
 # Working with Coordinates
 
@@ -9,8 +9,10 @@
 
 ## Coordinate notation
 To express the values for the geographic longitude and latitude there are different notations, the most used are:
-   * **degimal degrees** (eg: $30.263888889^{\circ}$)
-   * **sessagesimal degrees** (eg: $ 30^{\circ} 15^{'} 50^{"}$)
+
+   * **degimal degrees** (eg: $$30.263888889^{\circ}$$)
+   
+   * **sessagesimal degrees** (eg: $$30^{\circ} 15 \ 0$$)
 
 A simple example to convert back and forward those 2 different notations is shown below:
 
@@ -28,13 +30,11 @@ Let's use the IPython magic funcion ```%%file``` to make a simple comma separate
 
 now read the CSV using [pandas](), we'll create a [pandas.dataframe]() using the [pandas.read_csv]() method:
 
-
+```python
     import pandas as pd
-
-
     input = pd.read_csv('test.csv', names=['Latitude', 'Longitude'])
     input
-
+```
 
 
 
@@ -69,7 +69,7 @@ Simple code to convert between the two notations:
 * d2s: convert from decimal degrees to sessagesimal degrees
 * s2d: convert from sessagesimal degrees to decimal degrees
 
-
+```python
     import numpy as np
     
     def d2s(df,key='Latitude'):
@@ -87,17 +87,17 @@ Simple code to convert between the two notations:
         take as input a pandas dataframe and a list of column names'''
         deg=df[key[0]].values+(df[key[1]].values/60.+df[key[2]].values/3600.)
         return deg
+```
 
+convert from decimal degrees to sessagesimal degree
 
-    # convert from decimal degrees to sessagesimal degree
-
-
+```python
     Lat = d2s(df=input,key='Latitude')
     Lon = d2s(df=input,key='Longitude')
-
-
+```
+```
     Lat
-
+```
 
 
 
@@ -163,30 +163,18 @@ Simple code to convert between the two notations:
 </table>
 </div>
 
+convert from sessagesimal degree to decimal degree
 
-
-
-    # convert from sessagesimal degree to decimal degree
-
-
+```python
     s2d(Lat)
-
-
-
-
     array([ 30.26388889,  23.457654  ])
+```
 
 
-
-
+```python
     s2d(Lon)
-
-
-
-
     array([ 45.563456,  34.433425])
-
-
+```
 
 ---
 
