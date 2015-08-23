@@ -1,7 +1,7 @@
 
 #An intro to Numerical Cartography
 
-* [Spatial and Coordinate Reference System](Spatial and Coordinate Reference System)
+* [Spatial and Coordinate Reference System](Numerical Cartography/Spatial and Coordinate Reference System.md)
 * [Working with coordinates](Working with coordinates)
 * [The Geodesic Problem](The Geodesic Problem)
 * [Map Projections](Map Projections)
