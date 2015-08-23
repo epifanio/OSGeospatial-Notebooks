@@ -40,12 +40,12 @@
 * Raster algebra :
     * gdal grass array multi layer
     * Map algebra: filtering, masking, general statistics: (this part will be dedicated to GRASS GIS, perhaps exploring the landsat 8 dataset)
-* **c** - Access to web based resources :
-    * use of OWSlib to access web based resourcesusing OGC web standards
-    * example access and processing of NETCDF dataset
-* **d** - Simple web-gis products:
+* Access to web based resources :
+    * OWSlib to access OGC web standards
+    * Processing of NETCDF dataset
+* Web-Gis :
     * publish result of processing in HTML+JS  js widgets (openlayers, leaflet, Cesium)
-* **e** - Intro to geostatistic:
+* Intro to geostatistic:
     * Combined use of R, GRASS and Python 
  
 *Note: After sharing this proposal on the OSGeo-Edu mailing list [2], instructors from University of Massachusetts ,  University of Denver, and Polytechnic of Milano are willing to collaborate sharing educational material to be adapted to the "notebook approach".
