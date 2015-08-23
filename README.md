@@ -48,77 +48,10 @@
 * Intro to geostatistic:
     * Combined use of R, GRASS and Python 
  
-*Note: After sharing this proposal on the OSGeo-Edu mailing list [2], instructors from University of Massachusetts ,  University of Denver, and Polytechnic of Milano are willing to collaborate sharing educational material to be adapted to the "notebook approach".
- 
+
   Part of this idea is to develop a software library written in python, to simplify the usage of geospatial data inside the notebook. Providing wrapper function to solve general tasks like I/O, Database connections, map display using gui widgets and rich text for data documentation and report building.
  
-This idea integrates several projects such as GDAL, GRASS, OSSIM, R, OTB, Numpy, Scipy, Pandas, R, owslib, netcdf4-python, pycsw, openlayers/leaflet/cesium, qgis-browser, gmt, postgis, in addition to the python specific projects (e.g. fiona, shapely, geopandas, scikit-image, pysal, cartopy, iris, and more). Generally each library that has python bindings and or is accessible from the command line. Part of this idea is to :
- 
-* Develop topic oriented geospatial notebooks as described above (topics TBD)
+This idea integrates several projects such as GDAL, GRASS, OSSIM, R, OTB, Numpy, Scipy, Pandas, R, owslib, netcdf4-python, pycsw, openlayers/leaflet/cesium, qgis-browser, gmt, postgis, in addition to the python specific projects (e.g. fiona, shapely, geopandas, scikit-image, pysal, cartopy, iris, and more). Generally each library that has python bindings and or is accessible from the command line.
 
-* Implement a software library written in python, to simplify the usage of geospatial data inside the notebook. This library will provide helper function to work with geospatial data (e.g. general tasks like I/O, Database connections, map display using gui widgets and rich text for data documentation and report building) taking advantage of the api provided by Jupyter.
 
-* Reorganize the way how python libraries are installed on the live by packaging, as .deb, each python project that is missing a proper debian package. Resulting deb can then be upload on the ubuntu gis repository (before approval to ubuntu/debian gis official repository, the packages can can be hosted on an ad-hoc OSgeo-Live debian repository in incubation state)
-
-* Revisiting and upgrading existent OsGeo-Live Quickstart documentation for each project involved in this idea (the rst file format used by OSGeo-Live documentation can be generated on the fly by running notebooks in batch mode, this will integrate quickstart testing and document building in a single process, keeping the quickstarter (notebook-enabled) up-to-date) 
-
-## Project plan
- 
-###Week 1 
-  Discuss with mentors about the topic oriented notebooks, the idea will be to build the notebooks in sections, subsections, references, appendix, acknowledgment. I'll need to spend the first and perhaps second week to organize a precise outline. The [list above](README.ipynb#Topic-list) is a first attempt of possible main topics (dedicating up to 15 days to each topic) 
-  
-*note: the list of topics I identified as possible candidate to be included in this GSoC. With the mentor advise, based on the time frame and complexity we want reach for each topic, I will identify the ones to implement (if not all)*
- 
-Start to develop the skeleton of the library to host the classes and methods used as utility functions (setup.py, sphinx docs, directory structure, dependencies)
- 
- 
-###Week 2  
-Continue to work on the outlined topics
-Set-up the notebook environment variables (needed by some software like GRASS, GMT, R and others) to have them exported correctly in the notebook environment
-Start to include in the python library some wrappers around the notebook display capabilities (html, latex, images (url/files), short-cut to command-line, output parser)
- 
-###Week 3  
-First round in packaging missed dependencies
-Implement new utility methods as they come necessary, fix possible bugs in the one already implemented (this step will be repeated for each week i'll avoid to repeat it in the next points )
-Start to work on topic (a) 
- 
-###Week 4  
-Finish and testing topic (a)  - Mentor will test and provide feedback on a notebook run
-Check the notebook output as RST and have a first look on its integration in the OSGeo-Live documentation build process  
- 
-###Week 5 
-Start to work on topic (b)
-Continue to work on packaging if needed
- 
-###Week 6 
-Finish and testing topic (b)  - Mentor will test and provide feedback on a notebook run
-continue to work on 'RST build-doc' process (if needed)
- 
-###Week 7  
-Start to work on topic (c)
-Prepare script to build a first demo of the OSGeo-Live with a subset of application (only the major apps and the ones used to test the notebook) 
- 
-###Week 8 
-Finish and testing topic (c)  - Mentor will test and provide feedback on a notebook run
-checking, cleaning, reorganizing classes and methods developed in the utility library (deep look on HTML and JS templates to be used in topic d)
- 
-###Week 9  
-Start to work on topic (d)
-FOSS4G EU (feedback from OSGE-Edu community, code sprint and testing)
- 
-###Week 10 
-Continue working on utility library to include HTML and JS template rendering)
-Finish and testing topic (d)  - Mentor will test and provide feedback on a notebook run
- 
-###Week 11 
-Start to work on topic (e)
-Second round in packaging of missed dependencies
- 
-###Week 12 
-Finish and testing topic (e)  - Mentor will test and provide feedback on a notebook run
-Test the automated build of the full set of notebooks
- 
-###Week 13
-Debug and final packaging
- 
 *Note this Project plan can be subject to changes based on the feedback received by mentors and from the project's mailing list.
