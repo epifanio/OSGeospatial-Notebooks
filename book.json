@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "https://github.com/ymcatar/gitbook-plugin-ace"
+        "https://github.com/ymcatar/gitbook-plugin-ace",
+        "gitbook-plugin-anchors"
     ],
     "pluginsConfig": {}
 }
