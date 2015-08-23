@@ -23,14 +23,14 @@ The most common choices of coordinates are ** *Geographic coordinates* ** and **
 
 The combination of these two components specifies the position of any location on the surface of the Earth, without consideration of altitude or depth. 
 
-<img src="images/ECEF.svg">
+<img src="ecef1.png">
 
 ###Universal Transverse Mercator (UTM) coordinate system:
 
    The UTM coordinate system use a metric-based cartesian grid laid out on a conformally projected surface. The UTM system is not a single map projection but a series of sixty, each covering 6-degree bands of longitude.
    
    
-<img src="images/utmzone.svg">
+<img src="utmzone.png">
 
 ##Geodetic Coordinates:
    
