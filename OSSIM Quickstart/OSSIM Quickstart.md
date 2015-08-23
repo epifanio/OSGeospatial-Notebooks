@@ -223,7 +223,8 @@ The following tools are used to create OSSIM support files:
 [top](#Core-Programs)
 
 ### degrees from radians
-   ```ossim-info --rad2deg <radians>```
+   
+```ossim-info --rad2deg <radians>```
 
 
     ossim-info --rad2deg 0.35849
@@ -236,9 +237,10 @@ The following tools are used to create OSSIM support files:
 [top](#Core-Programs)
 
 ### meters from feet 
+
 - 0.3048 meters per foot
 
-    ```ossim-info --ft2mtrs <feet>``` 
+```ossim-info --ft2mtrs <feet>``` 
 
 
     ossim-info --ft2mtrs 1
@@ -319,7 +321,9 @@ Gives meters per degree and meters per minute for a given latitude.
 [top](#Core-Programs)
 
 ### Datums
+
 Prints datum list.
+
 ```ossim-info --datums```             
 
 
@@ -627,7 +631,9 @@ Prints datum list.
 
 
 ### Projections
+
 Prints projections list
+
 ```ossim-info --projections```       
 
 
@@ -698,7 +704,7 @@ Prints projections list
 
 ### ground center
 
-    ```ossim-info --cg filename```
+```ossim-info --cg filename```
 
 
     ossim-info --cg /home/user/data/north_carolina/rast_geotiff/lsat7_2002_10.tif
@@ -711,7 +717,7 @@ Prints projections list
 
 ### image center
 
-    ```ossim-info  --ci filename```         
+```ossim-info  --ci filename```         
 
 
     ossim-info  --ci /home/user/data/north_carolina/rast_geotiff/lsat7_2002_10.tif
@@ -724,7 +730,7 @@ Prints projections list
 
 ### ground and image center
 
-    ```ossim-info -c filename```
+```ossim-info -c filename```
 
 
     ossim-info  -c /home/user/data/north_carolina/rast_geotiff/lsat7_2002_10.tif      
@@ -738,7 +744,7 @@ Prints projections list
 
 ### general image information
     
-    ```ossim-info -i filename```
+```ossim-info -i filename```
 
 
     ossim-info  -i /home/user/data/north_carolina/rast_geotiff/lsat7_2002_10.tif      
@@ -768,7 +774,7 @@ Prints projections list
 
 ### meta data image information
 
-    ```ossim-info -m filename```
+```ossim-info -m filename```
 
 
     ossim-info  -m /home/user/data/north_carolina/rast_geotiff/lsat7_2002_10.tif      
@@ -792,7 +798,7 @@ Prints projections list
 
 ### image projection information
 
-    ```ossim-info -p filename```
+```ossim-info -p filename```
 
 
     ossim-info  -p /home/user/data/north_carolina/rast_geotiff/lsat7_2002_10.tif      
@@ -843,7 +849,7 @@ Prints projections list
 
 ### image rectangle
 
-    ```ossim-info -r filename```
+```ossim-info -r filename```
 
 
     ossim-info  -r /home/user/data/north_carolina/rast_geotiff/lsat7_2002_10.tif      
@@ -1056,6 +1062,9 @@ Execute image chains specified in a spec file.
 In the folowing example the spec file ```rgb.spec``` has been generated using  [imagelinker](http://localhost/osgeolive/en/quickstart/ossim_quickstart.html), from an example session: ```/home/user/ossim/ossim-rgb.prj```
 
 
+```ossim-igen <file.spec>```
+
+
     ossim-igen /home/user/ossim/rgb.spec
 
     
@@ -1080,10 +1089,11 @@ In the folowing example the spec file ```rgb.spec``` has been generated using  [
 
 # ```ossim-orthoigen```
 
-```todo```
+todo
 
 # ```ossim-rpf```
 
-```todo```
+
+todo
 
 [top](#Notebooks---Access-to-Geospatial-data)
