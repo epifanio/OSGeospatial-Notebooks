@@ -54,14 +54,14 @@ $$
 \sin(\alpha) = \frac{d}{R} \cdot \sqrt{1-(\frac{d}{2R})^2} = \frac{d}{2R^2} \cdot \sqrt{4R^2-d^2}
 $$
 
-and in therms of $d$ and $R$ the distance $D$ is given by:
+and in therms of $$d$$ and $$R$$ the distance $$D$$ is given by:
 
 $$
 D = R \alpha = R \sin^{-1}{(\frac{d}{2R^2}\cdot \sqrt{4R^2-d^2})}
 $$
 
 
-<img src="sc1.png" width="80%">
+![](sc1.png)
 
 <center>Figure 1</center>
 
@@ -84,13 +84,13 @@ The shortes distance between two points on the ellipse surface is also known as 
 ##The direct and Inverse Geodesic Problems on a Ellipsoid of revolution
 
 
-The problems in geodesy are usually reduced to two main cases: the direct problem, given a starting point and an initial heading, find the position after traveling a certain distance along the geodesic; and the inverse problem, given two points on the ellipsoid find the connecting geodesic and hence the shortest distance between them. Because the flattening of the Earth is small, the geodesic distance between two points on the Earth is well approximated by the great-circle distance using the mean Earth radius - the relative error is less than 1%. However, the course of the geodesic can differ dramatically from that of the great circle. As an extreme example, consider two points on the equator with a longitude difference of $179^\circ59'$; while the connecting great circle follows the equator, the shortest geodesics pass within 180 km of either pole (the flattening makes two symmetric paths passing close to the poles shorter than the route along the equator).
+The problems in geodesy are usually reduced to two main cases: the direct problem, given a starting point and an initial heading, find the position after traveling a certain distance along the geodesic; and the inverse problem, given two points on the ellipsoid find the connecting geodesic and hence the shortest distance between them. Because the flattening of the Earth is small, the geodesic distance between two points on the Earth is well approximated by the great-circle distance using the mean Earth radius - the relative error is less than 1%. However, the course of the geodesic can differ dramatically from that of the great circle. As an extreme example, consider two points on the equator with a longitude difference of $$179^\circ 59$$; while the connecting great circle follows the equator, the shortest geodesics pass within 180 km of either pole (the flattening makes two symmetric paths passing close to the poles shorter than the route along the equator).
 
-  It is possible to reduce the various geodesic problems into one of two types. Consider two points: $A$ at latitude $\phi_1$ and longitude $\lambda_1$ and $B$ at latitude $\phi_2$ and longitude $\lambda_2$ (see Fig. 3). The connecting geodesic (from $A$ to $B$) is $AB$, of length $s_{12}$, which has azimuths $\alpha_1$ and $\alpha_2$ at the two endpoints. 
+  It is possible to reduce the various geodesic problems into one of two types. Consider two points: $$A$$ at latitude $$\phi_1$$ and longitude $$\lambda_1$$ and $$B$$ at latitude $$\phi_2$$ and longitude $$\lambda_2$$ (see Fig. 3). The connecting geodesic (from $$A$$ to $$B$$) is $$AB$$, of length $$s_{12}$$, which has azimuths $$\alpha_1$$ and $$\alpha_2$$ at the two endpoints. 
 
   The two geodesic problems usually considered are:
 
-  * the **direct geodesic problem** or first geodesic problem, determine $\phi_{2}$, $\lambda_{12}$, and $\alpha_2$, given $\phi_1$, $\alpha_1$ and $s_{12}$; 
+  * the **direct geodesic problem** or first geodesic problem, determine $$\phi_{2}$$, $\lambda_{12}$, and $\alpha_2$, given $\phi_1$, $\alpha_1$ and $s_{12}$; 
 
   * the **inverse geodesic problem** or second geodesic problem, determine $s_{12}$, $\alpha_1$ and $\alpha_2$ given $\phi_1$, $\phi_2$, and $\lambda_{12}$. 
 
