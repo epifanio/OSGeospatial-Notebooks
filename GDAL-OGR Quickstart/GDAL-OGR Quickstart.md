@@ -1,7 +1,7 @@
 
-<h1><center>[Notebooks](../) - [Access to Geospatial data](../Access to Geospatial data)</center></h1>
+#<center>/[Notebooks](../) / [Access to Geospatial data](../Access to Geospatial data) / </center>
 
-<b><h1 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.4px; font: 22.0px 'Lucida Sans'; color: #004d87; -webkit-text-stroke: #004d87; background-color: #ffffff"><span class="s1">GDAL/OGR Quickstart</span></h1></b>
+<b><h1 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.4px; font: 22.0px 'Lucida Sans'; color: #004d87; -webkit-text-stroke: #004d87; background-color: #ffffff"><span class="s1">GDAL-OGR Quickstart</span></h1></b>
 
 The first Notebook is dedicared to the use of the Geospatial Data Abstraction Library **GDAL** from the bash command line. GDAL is a powerful translator library for raster and vector geospatial data formats it presents a single raster abstract data model and vector abstract data model to the calling application for all supported formats.
 
