@@ -7,7 +7,7 @@ The following command line applications are distributed with OSSIM.
 ##Core Programs
 
 * [```ossim-info```](#ossim-info) Used to run ossim utilities function and to display metadata for imagery, maps, terrain, and vector data.
-    * [Utility functions](#Utilities-to-Create-Support-Files)
+    * [Utility functions](#utilities-to-create-support-files)
         * [radians from degrees](#radians-from-degrees)
         * [degrees from radians](#degrees-from-radians)
         * [meters from feet](#meters-from-feet)
@@ -49,7 +49,7 @@ The following tools are used to create OSSIM support files:
 
 # ```ossim-info```
 
-[top](#Core-Programs)
+[top](#core-programs)
 
 
     # we'll use the north_carolina image dataset
