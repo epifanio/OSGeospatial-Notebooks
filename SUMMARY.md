@@ -3,7 +3,6 @@
 * [Introduction](README.md)
 * [Access To Geospatial Data](Access to Geospatial Data/README.md)
    * [GDAL-OGR Quickstart](Access to Geospatial Data/GDAL-OGR Quickstart/GDAL-OGR Quickstart.md)
-       * [ogrinfo](ogrinfo.md)
        * [gdalinfo](Access to Geospatial Data/GDAL-OGR Quickstart/gdalinfo.md)
    * [OSSIM Quickstart](Access to Geospatial Data/OSSIM Quickstart/OSSIM Quickstart.md)
 * [Numerical Cartography](Numerical Cartography/README.md)
