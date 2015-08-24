@@ -101,15 +101,16 @@ The two geodesic problems usually considered are :
   $$s_{12}, \alpha_1, \alpha_2$$ given $$\phi_1, \phi_2, \lambda_{12}$$
 
 
-<img src="../images/Geodesic_problem_on_an_ellipsoid.svg" width="50%">
+<img src="Geodesic_problem_on_an_ellipsoid.png" width="50%">
 
 
-FIG. 2 The ellipsoidal triangle $NAB$. $N$ is the north pole, $NA$ and
-$NB$ are *meridians*, and $AB$ is a *geodesic* of length $s_{12}$. The longitude
-of $B$ relative to $A$ is $\lambda_{12}$; the latitudes of $A$ and $B$ are $\phi_1$ and
-$\phi_2$. $EFH$ is the *equator* with $E$ also lying on the extension of the
-geodesic $AB$; and $\alpha_0$, $\alpha_1$, and $\alpha_2$ are the azimuths of the geodesic
-at $E$, $A$, and $B$.   
+FIG. 2 The ellipsoidal triangle $$\triangle{NAB}$$. $$N$$ is the north pole, $$NA$$ and
+$$NB$$ are *meridians*, and $$AB$$ is a *geodesic* of length $$s_{12}$$.
+
+The longitude of $$B$$ relative to $$A$$ is $$\lambda_{12}$$; the latitudes of $$A$$ and $$B$$ are $$\phi_1$$ and
+$$\phi_2$$. $$EFH$$ is the *equator* with $$E$$ also lying on the extension of the
+geodesic $$AB$$; and $$\alpha_0$$, $$\alpha_1$$, and $$\alpha_2$$ are the azimuths of the geodesic
+at $$E$$, $$A$$, and $$B$$.   
 
 [source](https://en.wikipedia.org/wiki/Geodesics_on_an_ellipsoid)
 
