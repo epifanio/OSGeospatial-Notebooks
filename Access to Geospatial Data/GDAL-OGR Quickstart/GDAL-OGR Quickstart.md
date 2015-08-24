@@ -15,8 +15,8 @@ This Notebook is derived from the original [GDAL-OGR quickstart](../doc/en/quick
     * [```Format translations```](gdal_translate.md#Format-translation), [```Resizing```](gdal_translate.md#resizing), [```Rescaling```](gdal_translate.md#rescaling), [```Splitting```](gdal_translate.md#splitting)
 
 
-* Reproject  with [```gdalwarp```](#Reprojecting)
-* Raster tileindex with [```gdaltindex```](#gdaltindex)
+* Reproject  with [```gdalwarp```](gdalwarp.md#reprojecting)
+* Raster tileindex with [```gdaltindex```](gdaltindex.md)
 * Image Mosaic with ```gdal_warp``` or [```gdal_merge.py```](#Mosaicking)
 
 <h1 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.4px; font: 18.0px 'Lucida Sans'; color: #004d87; -webkit-text-stroke: #004d87; background-color: #ffffff"><span class="s1">OGR </span></h1>
