@@ -1,5 +1,5 @@
 
-#/[Notebooks](../)/[Numerical Cartography](../numerical cartography)/</center>
+#<center>/[Notebooks](../../)/[Numerical Cartography](../README.md)/</center>
 
 # Working with Coordinates
 
