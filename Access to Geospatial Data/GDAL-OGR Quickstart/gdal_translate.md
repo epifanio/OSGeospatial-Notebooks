@@ -1,6 +1,6 @@
-<b><h1 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.4px; font: 18.0px 'Lucida Sans'; color: #004d87; -webkit-text-stroke: #004d87; background-color: #ffffff"><span class="s1">gdal_translate</span></h1></b> 
+#gdal_translate
 
-<b><h1 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.4px; font: 16.0px 'Lucida Sans'; color: #004d87; -webkit-text-stroke: #004d87; background-color: #ffffff"><span class="s1">Format translation</span></h1></b> 
+##Format translation
 
 Translations are accomplished with the gdal_translate command. The default output format is GeoTIFF. The ```-of``` flag is used to select an output format and the ```-co``` flag is used to specify a creation option:
 
@@ -13,7 +13,7 @@ The web browser is not happy with tif files so to have a quick look at the image
     0...10...20...30...40...50...60...70...80...90...100 - done.
 
 
-<b><h1 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.4px; font: 16.0px 'Lucida Sans'; color: #004d87; -webkit-text-stroke: #004d87; background-color: #ffffff"><span class="s1">Image Display</span></h1></b> 
+##Image Display
 
 
     Image('/home/user/gdal_natural_earth/HYP_50M_SR_W.jpg')
@@ -52,7 +52,7 @@ Use gdalinfo to verify data type.
     Band 3 Block=10800x1 Type=Int16, ColorInterp=Blue
 
 
-<b><h1 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.4px; font: 16.0px 'Lucida Sans'; color: #004d87; -webkit-text-stroke: #004d87; background-color: #ffffff"><span class="s1">Resizing</span></h1></b>  
+##Resizing
 
 The -outsize switch can be used to set the size of the output file.
 
@@ -79,7 +79,7 @@ Use gdalinfo to verify the size.
     Pixel Size = (0.066666666666660,-0.066666666666660)
 
 
-<b><h1 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.4px; font: 16.0px 'Lucida Sans'; color: #004d87; -webkit-text-stroke: #004d87; background-color: #ffffff"><span class="s1">Rescaling</span></h1></b>  
+##Rescaling
 
 The -scale switch can be used to rescale the data range of a given image. Explicit control of the input and output ranges is also available. The gdalinfo ```-mm``` switch can be used to see pixel min/max values.
 
@@ -135,7 +135,7 @@ Let's convert the scaled output to JPG for a quick display, notice the color rea
 
 compare with [original image](#Image-Display)
 
-<b><h1 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.4px; font: 16.0px 'Lucida Sans'; color: #004d87; -webkit-text-stroke: #004d87; background-color: #ffffff"><span class="s1">Splitting</span></h1></b> 
+##Splitting
 
 Let’s split our image into two with ```-srcwin``` which makes a copy based on pixel/line location (xoff yoff xsize ysize). You also could use ```-projwin``` and define the corners in georeferenced coordinates (ulx uly lrx lry).
 
