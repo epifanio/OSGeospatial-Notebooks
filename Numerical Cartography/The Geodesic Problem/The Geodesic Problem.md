@@ -68,7 +68,7 @@ $$
 ### Distance on curved surface
 
 The shortest path between two points on a curved surface is colled *geodesic* which in case of a spheroid is also colled *Great Circle*.
-Considering two points: $P_1(\lambda_1,\phi_1), P_2(\lambda_2,\phi_2)$, The great circle distance $d$ between $P_1$ and $P_2$ is given by eq.2: 
+Considering two points: $$P_1(\lambda_1,\phi_1), P_2(\lambda_2,\phi_2)$$, The great circle distance $$d$$ between $$P_1$$ and $$P_2$$ is given by eq. 2: 
 
 $$
 d = 2 \cdot \arcsin(\sqrt{\sin{(\frac{\phi_1-\phi_2}{2})}^2 + \cos(\phi_1) \cdot \cos(\phi_2) \cdot (\sin{\frac{\lambda_1-\lambda_2}{2}})^2} \quad (2)
@@ -81,18 +81,24 @@ The shortes distance between two points on the ellipse surface is also known as 
 
 ---
 
-##The direct and Inverse Geodesic Problems on a Ellipsoid of revolution
+## The direct and Inverse Geodesic Problems on a Ellipsoid of revolution
 
 
-The problems in geodesy are usually reduced to two main cases: the direct problem, given a starting point and an initial heading, find the position after traveling a certain distance along the geodesic; and the inverse problem, given two points on the ellipsoid find the connecting geodesic and hence the shortest distance between them. Because the flattening of the Earth is small, the geodesic distance between two points on the Earth is well approximated by the great-circle distance using the mean Earth radius - the relative error is less than 1%. However, the course of the geodesic can differ dramatically from that of the great circle. As an extreme example, consider two points on the equator with a longitude difference of $$179^\circ 59$$; while the connecting great circle follows the equator, the shortest geodesics pass within 180 km of either pole (the flattening makes two symmetric paths passing close to the poles shorter than the route along the equator).
+The problems in geodesy are usually reduced to two main cases: the direct problem, given a starting point and an initial heading, find the position after traveling a certain distance along the geodesic; and the inverse problem, given two points on the ellipsoid find the connecting geodesic and hence the shortest distance between them. Because the flattening of the Earth is small, the geodesic distance between two points on the Earth is well approximated by the great-circle distance using the mean Earth radius - the relative error is less than $$1\%$$. However, the course of the geodesic can differ dramatically from that of the great circle. As an extreme example, consider two points on the equator with a longitude difference of $$179^\circ 59$$; while the connecting great circle follows the equator, the shortest geodesics pass within $$180 km$$ of either pole (the flattening makes two symmetric paths passing close to the poles shorter than the route along the equator).
 
-  It is possible to reduce the various geodesic problems into one of two types. Consider two points: $$A$$ at latitude $$\phi_1$$ and longitude $$\lambda_1$$ and $$B$$ at latitude $$\phi_2$$ and longitude $$\lambda_2$$ (see Fig. 3). The connecting geodesic (from $$A$$ to $$B$$) is $$AB$$, of length $$s_{12}$$, which has azimuths $$\alpha_1$$ and $$\alpha_2$$ at the two endpoints. 
+  It is possible to reduce the various geodesic problems into one of two types. Consider two points: $$A(\phi_{1}, \lambda_1)$$ and $$B(\phi_2, \lambda_2)$$, see Fig. 3. 
+  
+  The connecting geodesic (from $$A$$ to $$B$$) is $$AB$$, of length $$s_{12}$$, which has azimuths $$\alpha_1$$ and $$\alpha_2$$ at the two endpoints. 
 
-  The two geodesic problems usually considered are:
+The two geodesic problems usually considered are :
+* The **direct geodesic problem** (or *first geodesic problem*) to determine:
 
-  * the **direct geodesic problem** or first geodesic problem, determine $$\phi_{2}$$, $\lambda_{12}$, and $\alpha_2$, given $\phi_1$, $\alpha_1$ and $s_{12}$; 
+    $$\phi_2, \lambda_{12}, \alpha_2$$ given $$\phi_1, \alpha_1, s_{12}$$
 
-  * the **inverse geodesic problem** or second geodesic problem, determine $s_{12}$, $\alpha_1$ and $\alpha_2$ given $\phi_1$, $\phi_2$, and $\lambda_{12}$. 
+
+  * the **inverse geodesic problem** (or second geodesic problem) to determine:
+   
+  $$s_{12}, \alpha_1, \alpha_2$$ given $$\phi_1, \phi_2, \lambda_{12}$$
 
 
 <img src="../images/Geodesic_problem_on_an_ellipsoid.svg" width="50%">
