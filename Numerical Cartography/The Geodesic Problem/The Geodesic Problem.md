@@ -101,6 +101,9 @@ The two geodesic problems usually considered are :
   $$s_{12}, \alpha_1, \alpha_2$$ given $$\phi_1, \phi_2, \lambda_{12}$$
 
 
+![](Geodesic_problem_on_an_ellipsoid.png)
+
+
 <img src="Geodesic_problem_on_an_ellipsoid.png" width="50%">
 
 
