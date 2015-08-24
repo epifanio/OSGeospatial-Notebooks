@@ -1,4 +1,6 @@
 
+#<center>/[Notebooks](../../) / [Numerical Cartography](../README.md) / </center>
+
 #Spatial and Coordinate Reference System
 
 A **spatial reference system** (SRS) or **coordinate reference system** (CRS) is a [coordinate-based](https://en.wikipedia.org/wiki/Coordinate_system) local, regional or global system used to locate geographical entities. A spatial reference system defines a specific [map projection](https://en.wikipedia.org/wiki/Map_projection), as well as transformations between different spatial reference systems. Spatial reference systems are defined by the [OGC](https://en.wikipedia.org/wiki/Open_Geospatial_Consortium)'s [Simple feature access](https://en.wikipedia.org/wiki/Simple_feature_access) using [well-known text](https://en.wikipedia.org/wiki/Well-known_text), and support has been implemented by several [standards-based](https://en.wikipedia.org/wiki/Technical_standard) [geographic information systems](https://en.wikipedia.org/wiki/Geographic_information_system). Spatial reference systems can be referred to using a [SRID](https://en.wikipedia.org/wiki/SRID) integer, including EPSG codes defined by the [International Association of Oil and Gas Producers](https://en.wikipedia.org/wiki/International_Association_of_Oil_and_Gas_Producers).
