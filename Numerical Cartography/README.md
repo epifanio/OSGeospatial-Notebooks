@@ -4,7 +4,7 @@
 * [Spatial and Coordinate Reference System](Spatial and Coordinate Reference System/Spatial and Coordinate Reference System.md)
 * [Working with coordinates](Working with coordinates/Working with coordinates.md)
 * [The Geodesic Problem](The Geodesic Problem/The Geodesic Problem.md)
-* [Map Projections](Map Projections/Map Projections)
+* [Map Projections](Map Projections/Map Projections.mf)
 * [Geometric transformation]()
 
 ###References
