@@ -12,7 +12,7 @@ This Notebook is derived from the original [GDAL-OGR quickstart](../doc/en/quick
 * Explore your image data with [```gdalinfo```](gdalinfo.md)
 * Format translations, Rescaling, Resizing, Splitting with [```gdal_translate```](gdal_translate.md)
 
-    * [```Format translations```](gdal_translate.md#format-translation), [```Resizing```](gdal_translate.md#resizing), [```Rescaling```](gdal_translate.md#rescaling), [```Splitting```](gdal_translate.md#splitting)
+    * [```Format translations```](gdal_translate.md#Format-translation), [```Resizing```](gdal_translate.md#resizing), [```Rescaling```](gdal_translate.md#rescaling), [```Splitting```](gdal_translate.md#splitting)
 
 
 * Reproject  with [```gdalwarp```](#Reprojecting)
