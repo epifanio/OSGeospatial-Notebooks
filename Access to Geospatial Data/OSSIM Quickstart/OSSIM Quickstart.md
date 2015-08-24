@@ -1,7 +1,7 @@
 
 #<center>/[Notebooks](../../SUMMARY.md) / [Access to Geospatial data](../README.md)/</center>
 
-# OSSIM Command Line Applications
+# OSSIM Quickstart - Command Line Applications
 The following command line applications are distributed with OSSIM.
 
 ##Core Programs
