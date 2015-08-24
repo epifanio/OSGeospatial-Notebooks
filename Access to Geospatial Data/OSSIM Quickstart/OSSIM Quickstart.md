@@ -1,5 +1,5 @@
 
-#<center>/[Notebooks](../../SUMMARY.md) / [Access to Geospatial data](../README.md)/</center>
+#<center>/[Notebooks](../../SUMMARY.md)/[Access to Geospatial data](../README.md)/</center>
 
 # OSSIM Quickstart - Command Line Applications
 The following command line applications are distributed with OSSIM.
