@@ -1,5 +1,5 @@
 
-#<center>/[Notebooks](../../) / [Numerical Cartography](../README.md) / </center>
+#<center>/[Notebooks](../../)/[Numerical Cartography](../README.md)/</center>
 
 #Spatial and Coordinate Reference System
 
