@@ -9,7 +9,7 @@ This Notebook is derived from the original [GDAL-OGR quickstart](../doc/en/quick
 
 <h1 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.4px; font: 18.0px 'Lucida Sans'; color: #004d87; -webkit-text-stroke: #004d87; background-color: #ffffff"><span class="s1">GDAL</span></h1>
 
-* Explore your image data with [```gdalinfo```](#gdalinfo)
+* Explore your image data with [```gdalinfo```](gdalinfo.md)
 * Format translations, Rescaling, Resizing, Splitting with [```gdal_translate```](#gdal_translate)
 
     * [```Format translations```](#Format-translation), [```Resizing```](#Resizing), [```Rescaling```](#Rescaling), [```Splitting```](#Splitting)
