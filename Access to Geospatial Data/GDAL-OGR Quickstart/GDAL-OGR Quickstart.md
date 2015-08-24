@@ -28,33 +28,26 @@ This Notebook is derived from the original [GDAL-OGR quickstart](../doc/en/quick
 
 You will find the demo data at ```/usr/local/share/data```. We want to have a look at the [naturalearth dataset](../doc/en/overview/naturalearth_overview.html) data in this quickstart. We want to work with a copy of the data. So the first step is to copy the data to your home directory.
 
-
-    # Import IPython utility to display images
-    from IPython.core.display import Image
-
-
-    cd /home/user
-
-    /home/user
-
-
-
-    !rm -rf /home/user/gdal_natural_earth
-
-
-    !cp -R /usr/local/share/data/natural_earth2/ /home/user/gdal_natural_earth
+```python
+# Import IPython utility to display images
+from IPython.core.display import Image
+    
+cd /home/user
+!rm -rf /home/user/gdal_natural_earth
+!cp -R /usr/local/share/data/natural_earth2/ /home/user/gdal_natural_earth
+```
 
 You will then find a series of geotiff file:
-
-
-    ls /home/user/gdal_natural_earth/HYP_50M_SR_W.*
-
-    /home/user/gdal_natural_earth/HYP_50M_SR_W.prj
-    /home/user/gdal_natural_earth/HYP_50M_SR_W.README.html
-    /home/user/gdal_natural_earth/HYP_50M_SR_W.tfw
-    /home/user/gdal_natural_earth/HYP_50M_SR_W.tif
-    /home/user/gdal_natural_earth/HYP_50M_SR_W.VERSION.txt
-
+```
+ls /home/user/gdal_natural_earth/HYP_50M_SR_W.*
+```
+```
+/home/user/gdal_natural_earth/HYP_50M_SR_W.prj
+/home/user/gdal_natural_earth/HYP_50M_SR_W.README.html
+/home/user/gdal_natural_earth/HYP_50M_SR_W.tfw
+/home/user/gdal_natural_earth/HYP_50M_SR_W.tif
+/home/user/gdal_natural_earth/HYP_50M_SR_W.VERSION.txt
+```
 
 <b><h1 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.4px; font: 18.0px 'Lucida Sans'; color: #004d87; -webkit-text-stroke: #004d87; background-color: #ffffff"><span class="s1">gdalinfo</span></h1></b> 
 
