@@ -1,5 +1,5 @@
 
-#<center>/[Notebooks](../../)/[Access to Geospatial data](../README.md)/</center>
+#[Notebooks](../../)/[Access to Geospatial data](../README.md)
 
 <b><h1 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.4px; font: 22.0px 'Lucida Sans'; color: #004d87; -webkit-text-stroke: #004d87; background-color: #ffffff"><span class="s1">GDAL-OGR Quickstart</span></h1></b>
 
